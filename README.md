@@ -1,4 +1,4 @@
-1. Run find and replace file fist
+1. Run find and replace file first
 2. Edit file list.conf
 3. Run main_me.py
 4. remove conflic file
