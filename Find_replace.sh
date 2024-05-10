@@ -19,7 +19,7 @@ search_and_replace() {
             search_and_replace "$item"
         elif [ -f "$item" ]; then
             # Nếu là tệp, kiểm tra xem có phải là tệp io3_mac.conf không
-            if [ "$(basename "$item")" = "io3_mac.conf" ]; then
+            if [ "$(basename "$item")" = "list.conf" ]; then
                 # Đọc từng dòng từ tệp io3_mac.conf
                 while IFS='=' read -r key value; do
                     # Kiểm tra xem dòng đó có định dạng key=value không
